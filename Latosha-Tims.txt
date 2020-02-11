@@ -30,27 +30,72 @@
     15. How do I reference an id?
     To reference an ID, use '#' + the ID name. EX: #Batman
     16. What is the difference between a section and a div
-    the
+    The only difference between the div and section element is the semantics.
     17. What is CSS used for? 
+    CSS stands for cascading style sheet which is used to add the decoration to a webpage.
     18. How to we select an element? Example - every h2 on the page
+    To select all h2 elements: h2{add modifying code in here}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    The difference between an ID and a class is that and Id is used to identify one element, whereas a class can be used to identify more than one element. EX:
+    <div id="top">
+
+    <h1>Chocolate curry</h1>
+
+    <p class="intro">This is my recipe for making curry purely with chocolate</p>
+
+    <p class="intro">Mmm mm mmmmm</p>
+
+    </div>
     20. How do we select classes in CSS?
+    To select a class in CSS, use '.' + 'class name' EX: .intro{add modifying code in here}
     21. How do we select a p element with a single class of “human””?
+    To select a p element with a single class of human, use 'p.human{add modifying code in here}
     22. What is a parent child selector? When would this be useful? 
+    A selector to filter the child elements. This is useful when finding the direct decendants for the specified parent.
     23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
+    To select all links within a div with the class of sidebar, use 'div a .sidebar'
+    24. What is a pseudo selector?  
+    A pseudo selector is s a keyword added to a selector that specifies a special state of the selected element. EX: :hover
     25. What do we use the change the spacing between lines?
+    To change the spacing between lines, use modifying code 'line-height'. EX: p{line-height: 2;}
     26. What do we use to change the spacing between letters?
+    To change the spacing between letters, use modifying code 'letter-spacing' EX: .tight{letter-spacing: -0.08em;}
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    To change everything to capitals, use modifying code 'text-transform: uppercase' 
+        EX: div.a{text-transform: uppercase;}
+    To change everything to lowercase, use modifying code 'text-transform: lowercase'
+        EX: div.b{text-transform: lowercase;}
+    To capitaliz the first letter, use modifying code 'text-transform: capitalize'
+        EX: div.c{text-transform: capitalize;}
     28. How do I add a 1px border around my div that is dotted and black?
+        EX: 
+        div{
+            border-width: 1px;
+            border-style: dotted;
+            border-color: black;
+        }
     29. How do I select everything on the page? 
+    To select everything, use the universal selector '*'
+        EX: *{
+            font-size:16px;
+            font-color: red;
+        }
     30. How do I write a comment in CSS?
+    To add a comment, start the comment with '/*' fill with text and close with '*/'
+        EX: /*This is what a comment looks like*/
     31. How do I find out what file I am in, when I am using the command line? 
+    To display the path of the current working directory, use '$ pwd'
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    To display the list of files/folders in the current folder, use '$ ls'
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    To remove a file via the command line, use '$ rm'
     34. Why should I use version control? 
+    Version control is goo so that all changes can be tracked and brought back if something is wron with the current form. It is also useful to have several people working on the same file simultaneously.
     35. How often should I commit to github?
+    You should commit to github often, as a rule of thumb, every 20 minutes.
     36. What is the command we would use to push our repo up to github? 
+    To push our repo back to github, use ' git push -u branch-name'
+        EX: git push -u 'latosha-tims'
     37. Walk me through Lambda's git flow. 
 
 Stretch Questions
