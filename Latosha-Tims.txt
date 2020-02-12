@@ -94,14 +94,19 @@
     35. How often should I commit to github?
     You should commit to github often, as a rule of thumb, every 20 minutes.
     36. What is the command we would use to push our repo up to github? 
-    To push our repo back to github, use ' git push -u branch-name'
-        EX: git push -u 'latosha-tims'
+    To push our repo back to github, use ' git push -u origin branch-name'
+        EX: git push -u origin 'latosha-tims'
     37. Walk me through Lambda's git flow. 
+    Lambda's git flow process starts when you create your own version of the repository by forking the assignment. After verifying that your name was added to the repository add your TL to yoru forked repository as a collaborator. From here, you can clone your repository and open it in the CLI on your computer. Make sure that you 'cd' into the directory where you want the file to appear. Use 'git clone + the url link that you copied from github'. Now 'cd' into the newly cloned repository and use the 'git checkout -b 'firstname-lastname' command to create your branch name for the repository. From here, you can do the assignment and get the project done. Do not forget to 'git add .' and 'git commit -m' your changes. When you are done, push your changes back up to the github repository with 'git push -u origin branch-name'. Next you go make a pull request from your forked project on github. Add your TL to the reviewers and then submit the pull request. Lastly, remember that you CANNOT merge your own pull request.
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
+    The key difference between inline and the block element is that the block elements take up the full width available while the inline elements take only the required width to display the contents of the elements.
+    2. What happens when an element is positioned absolutely?
+    When you add an absolutely positioned element, even though it does not increase the width of its containing block, it increases the size of the canvas. Now the browse will offer a scrolling option to allow you to view the entire canvas.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    
     5. In your own words, explain the box model. What is the fix for the box model? 
