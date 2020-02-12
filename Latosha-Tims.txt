@@ -8,7 +8,7 @@
     4. What is the h1 tag used for? How many times should I use it on a page?
     The h1 tag is used to identify the 'title' of the webpage. This mark up should only be used once. 
     5. Name two tags that have required attributes
-
+    Two tags that require attributes are the 'img' tag and the 'a' tag.
     6. What do we put in the head of our HTML document?
     You have to declare the document type, this is used let the web browser know what version of HTML the document will be written in.  
     7. What is an id? 
@@ -108,5 +108,5 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    
+
     5. In your own words, explain the box model. What is the fix for the box model? 
